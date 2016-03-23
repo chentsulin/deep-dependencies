@@ -25,7 +25,7 @@ describe('flatDependencies', () => {
         'read-pkg',
       ]);
     }
-    return flatDependencies().should.eventually.to.have.members([
+    return flatDependencies().should.eventually.to.include.members([
       'is-npm2',
       'lodash.union',
       'read-pkg',
