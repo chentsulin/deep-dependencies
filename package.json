@@ -1,9 +1,9 @@
 {
-  "name": "deep-dependencies",
+  "name": "flat-dependencies",
   "version": "0.1.0",
-  "description": "Resolve all of project's flatten dependencies.",
+  "description": "Resolve all of project's flat dependencies.",
   "license": "MIT",
-  "repository": "chentsulin/deep-dependencies",
+  "repository": "chentsulin/flat-dependencies",
   "scripts": {
     "test": "mocha",
     "test-travis": "node node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- --reporter dot",
@@ -12,7 +12,7 @@
   "author": {
     "name": "C.T. Lin",
     "email": "chentsulin@gmail.com",
-    "url": "github.com/chentsulin/deep-dependencies"
+    "url": "github.com/chentsulin/flat-dependencies"
   },
   "engines": {
     "node": ">=4"
@@ -25,10 +25,11 @@
     "package",
     "module",
     "node_modules",
-    "deep",
+    "flat",
     "dependencies"
   ],
   "dependencies": {
+    "is-npm2": "^0.1.0",
     "lodash.union": "^4.2.0",
     "read-pkg": "^1.1.0"
   },

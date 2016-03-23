@@ -1,26 +1,26 @@
-# deep-dependencies
+# flat-dependencies
 
 [![NPM version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
 [![Dependency Status][david_img]][david_site]
 
-> Resolve all of project's flatten dependencies.
+> Resolve all of project's flat dependencies.
 
 
 ## Install
 
 ```
-$ npm install deep-dependencies
+$ npm install flat-dependencies
 ```
 
 
 ## Usage
 
 ```js
-var deepDependencies = require('deep-dependencies');
+var flatDependencies = require('flat-dependencies');
 
-deepDependencies()
+flatDependencies()
 .then(res => console.log(res));
 //=> [
 // 'lodash.union',
@@ -57,18 +57,18 @@ deepDependencies()
 
 ## API
 
-### deepDependencies()
+### flatDependencies()
 
 ## License
 
-MIT © [C.T. Lin](https://github.com/chentsulin/deep-dependencies)
+MIT © [C.T. Lin](https://github.com/chentsulin/flat-dependencies)
 
-[npm-image]: https://badge.fury.io/js/deep-dependencies.svg
-[npm-url]: https://npmjs.org/package/deep-dependencies
-[travis-image]: https://travis-ci.org/chentsulin/deep-dependencies.svg
-[travis-url]: https://travis-ci.org/chentsulin/deep-dependencies
-[coveralls-image]: https://coveralls.io/repos/chentsulin/deep-dependencies/badge.svg?branch=master&service=github
-[coveralls-url]: https://coveralls.io/r/chentsulin/deep-dependencies?branch=master
-[david_img]: https://david-dm.org/chentsulin/deep-dependencies.svg
-[david_site]: https://david-dm.org/chentsulin/deep-dependencies
+[npm-image]: https://badge.fury.io/js/flat-dependencies.svg
+[npm-url]: https://npmjs.org/package/flat-dependencies
+[travis-image]: https://travis-ci.org/chentsulin/flat-dependencies.svg
+[travis-url]: https://travis-ci.org/chentsulin/flat-dependencies
+[coveralls-image]: https://coveralls.io/repos/chentsulin/flat-dependencies/badge.svg?branch=master&service=github
+[coveralls-url]: https://coveralls.io/r/chentsulin/flat-dependencies?branch=master
+[david_img]: https://david-dm.org/chentsulin/flat-dependencies.svg
+[david_site]: https://david-dm.org/chentsulin/flat-dependencies
 
