@@ -1,6 +1,6 @@
 {
   "name": "flat-dependencies",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Resolve all of project's flat dependencies.",
   "license": "MIT",
   "repository": "chentsulin/flat-dependencies",
