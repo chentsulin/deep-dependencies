@@ -9,7 +9,7 @@ function resolveFlatDependencyPkg(pkgname) {
   return path.join('node_modules', pkgname, 'package.json');
 }
 
-module.exports = function deepDependencies() {
+module.exports = function deepDependencies(path) {
   var result = [];
   var isNestedStructure;
 
@@ -31,7 +31,7 @@ module.exports = function deepDependencies() {
     .then(is2 => {
       isNestedStructure = is2;
     })
-    .then(() => readPkg())
+    .then(() => readPkg(path))
     .then(recursiveFindFlatDependencies)
     .then(() => result);
 };
